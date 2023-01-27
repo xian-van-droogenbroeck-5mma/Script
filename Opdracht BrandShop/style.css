@@ -1,0 +1,8 @@
+header {
+    background-color: aqua;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
