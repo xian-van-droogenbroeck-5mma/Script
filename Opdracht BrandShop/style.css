@@ -1,8 +1,10 @@
-header {
-    background-color: aqua;
+.icons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
 }
 
-.flex-container {
+.flex-containers{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
