@@ -1,14 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
 .row1 {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     justify-content: space-between;
     background-color: rgb(241, 241, 241);
+    padding: 10px;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 12px;
+}
+.row1 section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
 .row2 {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
+    margin: 10px;
 }
 .row2 section {
     display: flex;
@@ -21,4 +42,98 @@
 }
 .row2 a:link {
     text-decoration: none;
+    margin: 10px;
+}
+.row2 a {
+    color: black;
+}
+
+.nikeinvincible video {
+    width: 1250px;
+}
+
+.trending {
+    margin: 20px;
+    font-size: 25px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.flex-item {
+    flex: 1;
+}
+
+.flex-container-sportkleding {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: 20px;
+    margin-right: 100px;
+}
+.flex-item-sportkleding {
+    flex: 1;
+}
+
+.ontdek-meer-titel {
+    margin-bottom: 35px;
+    margin-top: 100px;
+    font-size: 25px;
+}
+.ontdek-meer {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.ontdek-meer figure {
+    position: relative;
+    width: 50%;
+}
+.ontdek-meer img {
+    width: 383px;
+}
+.figcaption-1 {
+    position: absolute;
+    bottom: 8%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: white;
+    color: black
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 100px;
+    text-decoration: none;
+}
+.figcaption-2 {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 5px;
+    left: 83%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 100px;
+    text-decoration: none;
+}
+
+.flex-container-shop-op-sport {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: 20px;
+    margin-right: 100px;
+}
+.flex-item-shop-op-sport {
+    flex: 1;
 }
