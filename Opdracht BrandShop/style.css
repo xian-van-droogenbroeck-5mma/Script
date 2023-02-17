@@ -9,6 +9,7 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
 .row1 {
     display: flex;
     align-items: center;
@@ -19,6 +20,7 @@ body {
     list-style-type: none;
     font-size: 12px;
 }
+
 .row1 section {
     display: flex;
     align-items: center;
@@ -31,27 +33,34 @@ body {
     justify-content: space-between;
     margin: 10px;
 }
+
 .row2 section {
     display: flex;
     font-size: 20px;
     gap: 20px;
 }
+
 .row2 li {
     list-style-type: none;
-    display:inline-block;
+    display: inline-block;
 }
+
 .row2 a:link {
     text-decoration: none;
     margin: 10px;
 }
+
 .row2 a {
     color: black;
 }
 
-.nikeinvincible video {
-    width: 1250px;
+#video video {
+    width: 100%;
 }
 
+#minishop img {
+    width: 100%;
+}
 .trending {
     margin: 20px;
     font-size: 25px;
@@ -62,21 +71,27 @@ body {
     justify-content: space-between;
     gap: 2rem;
 }
+
 .flex-item {
     flex: 1;
 }
 
+#sportkleding {
+    margin-left: 6%;
+}
 .flex-container-sportkleding {
     display: flex;
     justify-content: space-between;
     gap: 2rem;
-    margin-bottom: 20px;
-    margin-right: 100px;
 }
+
 .flex-item-sportkleding {
     flex: 1;
 }
 
+#gender {
+    margin-left: 3%;
+}
 .ontdek-meer-titel {
     margin-bottom: 35px;
     margin-top: 100px;
@@ -84,47 +99,43 @@ body {
 }
 .ontdek-meer {
     display: flex;
-    justify-content: space-between;
     gap: 2rem;
 }
-.ontdek-meer figure {
+figure {
     position: relative;
-    width: 50%;
-}
-.ontdek-meer img {
-    width: 383px;
 }
 .figcaption-1 {
     position: absolute;
-    bottom: 8%;
-    left: 30%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background-color: white;
-    color: black
-    font-size: 16px;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    border-radius: 100px;
-    text-decoration: none;
-}
-.figcaption-2 {
-    display: flex;
-    align-items: center;
-    position: absolute;
-    bottom: 5px;
-    left: 83%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+    bottom: 12%;
+    left: 15%;
     background-color: white;
     color: black;
-    font-size: 16px;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    border-radius: 100px;
-    text-decoration: none;
+    font-size: 25px;
+    border-radius: 30px;
+    padding: 10px 30px;
+    border: 1.5px solid transparent;
+    align-items: center;
+}
+.figcaption-2 {
+    position: absolute;
+    bottom: 12%;
+    left: 41%;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    border-radius: 30px;
+    padding: 10px 30px;
+    border: 1.5px solid transparent;
+    align-items: center;
+}
+
+#sport {
+margin-left: 3%;
+}
+.shop-op-sport-titel {
+    margin-bottom: 35px;
+    margin-top: 100px;
+    font-size: 25px;
 }
 
 .flex-container-shop-op-sport {
@@ -134,6 +145,23 @@ body {
     margin-bottom: 20px;
     margin-right: 100px;
 }
+
 .flex-item-shop-op-sport {
+    flex: 1;
+}
+
+.nike-membership-titel {
+    margin-bottom: 35px;
+    margin-top: 100px;
+    font-size: 25px;
+}
+
+.flex-container-nike-membership {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.flex-item-nike-membership {
     flex: 1;
 }
