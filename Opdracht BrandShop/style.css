@@ -79,6 +79,9 @@ body {
 #sportkleding {
     margin-left: 6%;
 }
+#sportkleding p {
+    color: gray;
+}
 .flex-container-sportkleding {
     display: flex;
     justify-content: space-between;
@@ -110,7 +113,7 @@ figure {
     left: 15%;
     background-color: white;
     color: black;
-    font-size: 25px;
+    font-size: 16px;
     border-radius: 30px;
     padding: 10px 30px;
     border: 1.5px solid transparent;
@@ -119,10 +122,10 @@ figure {
 .figcaption-2 {
     position: absolute;
     bottom: 12%;
-    left: 41%;
+    left: 35%;
     background-color: white;
     color: black;
-    font-size: 25px;
+    font-size: 16px;
     border-radius: 30px;
     padding: 10px 30px;
     border: 1.5px solid transparent;
@@ -150,18 +153,20 @@ margin-left: 3%;
     flex: 1;
 }
 
-.nike-membership-titel {
+.membership-titel {
     margin-bottom: 35px;
     margin-top: 100px;
     font-size: 25px;
+    margin-left: 50px;
 }
 
-.flex-container-nike-membership {
+.flex-container-membership {
     display: flex;
     justify-content: space-between;
     gap: 2rem;
+    width: 100%;
 }
 
-.flex-item-nike-membership {
+.flex-item-membership {
     flex: 1;
 }
