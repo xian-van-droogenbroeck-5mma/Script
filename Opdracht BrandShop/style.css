@@ -170,3 +170,46 @@ margin-left: 3%;
 .flex-item-membership {
     flex: 1;
 }
+
+#feed {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.flex-container-footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+footer {
+    padding: 5vw 10vw;
+    background-color: #111;
+    color: #666;
+}
+
+footer .flex-container:first-child {
+    margin-bottom: 2rem;
+}
+
+footer ul li {
+    font-size: 0.8rem;
+    line-height: 2;
+    list-style-type: none;
+}
+
+footer ul li:first-child a, footer ul:first-child li a {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+footer i {
+    margin-left: 1ch;
+    font-size: 1.6rem;
+}
+
+footer i:hover {
+    transform: scale(1.1);
+}
