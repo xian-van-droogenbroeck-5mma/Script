@@ -58,6 +58,10 @@ body {
     width: 100%;
 }
 
+#minishop {
+    margin-left: 3%;
+    margin-right: 3%;
+}
 #minishop img {
     width: 100%;
 }
@@ -77,7 +81,12 @@ body {
 }
 
 #sportkleding {
-    margin-left: 6%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 1%;
+}
+#sportkleding img {
+    width: 100%;
 }
 #sportkleding p {
     color: gray;
@@ -94,6 +103,10 @@ body {
 
 #gender {
     margin-left: 3%;
+    margin-right: 3%;
+}
+#gender img {
+    width: 100%;
 }
 .ontdek-meer-titel {
     margin-bottom: 35px;
@@ -110,7 +123,7 @@ figure {
 .figcaption-1 {
     position: absolute;
     bottom: 12%;
-    left: 15%;
+    left: 10%;
     background-color: white;
     color: black;
     font-size: 16px;
@@ -122,7 +135,7 @@ figure {
 .figcaption-2 {
     position: absolute;
     bottom: 12%;
-    left: 35%;
+    left: 40%;
     background-color: white;
     color: black;
     font-size: 16px;
@@ -133,14 +146,16 @@ figure {
 }
 
 #sport {
-margin-left: 3%;
+    margin-left: 5%;
 }
 .shop-op-sport-titel {
     margin-bottom: 35px;
     margin-top: 100px;
     font-size: 25px;
 }
-
+#sport img {
+    width: 100%;
+}
 .flex-container-shop-op-sport {
     display: flex;
     justify-content: space-between;
@@ -159,7 +174,13 @@ margin-left: 3%;
     font-size: 25px;
     margin-left: 50px;
 }
-
+#membership {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+#membership img {
+    width: 100%;
+}
 .flex-container-membership {
     display: flex;
     justify-content: space-between;
