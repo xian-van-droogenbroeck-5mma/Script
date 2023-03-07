@@ -85,9 +85,11 @@ body {
     margin-right: 3%;
     margin-top: 1%;
 }
+
 #sportkleding img {
     width: 100%;
 }
+
 #sportkleding p {
     color: gray;
 }
@@ -105,21 +107,26 @@ body {
     margin-left: 3%;
     margin-right: 3%;
 }
+
 #gender img {
     width: 100%;
 }
+
 .ontdek-meer-titel {
     margin-bottom: 35px;
     margin-top: 100px;
     font-size: 25px;
 }
+
 .ontdek-meer {
     display: flex;
     gap: 2rem;
 }
+
 figure {
     position: relative;
 }
+
 .figcaption-1 {
     position: absolute;
     bottom: 12%;
@@ -132,6 +139,7 @@ figure {
     border: 1.5px solid transparent;
     align-items: center;
 }
+
 .figcaption-2 {
     position: absolute;
     bottom: 12%;
@@ -148,14 +156,17 @@ figure {
 #sport {
     margin-left: 5%;
 }
+
 .shop-op-sport-titel {
     margin-bottom: 35px;
     margin-top: 100px;
     font-size: 25px;
 }
+
 #sport img {
     width: 100%;
 }
+
 .flex-container-shop-op-sport {
     display: flex;
     justify-content: space-between;
@@ -174,13 +185,16 @@ figure {
     font-size: 25px;
     margin-left: 50px;
 }
+
 #membership {
     margin-left: 3%;
     margin-right: 3%;
 }
+
 #membership img {
     width: 100%;
 }
+
 .flex-container-membership {
     display: flex;
     justify-content: space-between;
@@ -190,11 +204,6 @@ figure {
 
 .flex-item-membership {
     flex: 1;
-}
-
-#feed {
-    list-style-type: none;
-    display: inline-block;
 }
 
 .flex-container-footer {
@@ -209,14 +218,20 @@ footer {
     color: #666;
 }
 
-footer .flex-container:first-child {
+footer .flex-container-footer:first-child {
     margin-bottom: 2rem;
+}
+
+footer ul li a {
+    color: #666;
+    text-decoration: none;
 }
 
 footer ul li {
     font-size: 0.8rem;
     line-height: 2;
     list-style-type: none;
+    color: rgb(151, 151, 151);
 }
 
 footer ul li:first-child a, footer ul:first-child li a {
@@ -229,6 +244,9 @@ footer ul li:first-child a, footer ul:first-child li a {
 footer i {
     margin-left: 1ch;
     font-size: 1.6rem;
+}
+footer a i {
+    color: #666;
 }
 
 footer i:hover {
