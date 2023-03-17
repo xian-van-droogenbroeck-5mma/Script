@@ -272,5 +272,6 @@ footer a:hover {
 }
 
 footer i:hover {
+    color: white;
     transform: scale(1.1);
 }
