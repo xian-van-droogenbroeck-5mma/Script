@@ -8,24 +8,42 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: white;
+    color: black;
 }
 
 .row1 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgb(241, 241, 241);
+    background-color: lightgray;
     padding: 10px;
-    text-decoration: none;
-    list-style-type: none;
-    font-size: 12px;
-}
-
-.row1 section {
     display: flex;
     align-items: center;
-    gap: 20px;
-}
+  }
+  
+  .row1__logos {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .row1__logos li {
+    margin-right: 10px;
+  }
+  
+  .row1__logos li:last-child {
+    margin-right: 0;
+  }
+  
+  .row1__logos a img {
+    display: block;
+  }
+  
+  .row1__links {
+    margin-left: auto;
+    text-align: right;
+  }  
+  
 
 .row2 {
     display: flex;
