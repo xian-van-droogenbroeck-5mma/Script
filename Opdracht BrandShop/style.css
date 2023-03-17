@@ -13,7 +13,7 @@ body {
 }
 
 .row1 {
-    background-color: lightgray;
+    background-color: rgb(231, 230, 230);
     padding: 10px;
     display: flex;
     align-items: center;
