@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    background-color: black;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+}
+
+.logo {
+    width: 1920px;
+    height: 1080px;
+    background-size: contain;
+    margin: 0 auto;
+  }  
+
+nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+    margin: 0 10px;
+}
+  
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    transition: color 0.2s ease, text-shadow 0.3s ease;
+}
+  
+.left-nav a:hover {
+    text-shadow: 2px 2px 0px green, 3px 3px 0px green;
+}
+  
+.right-nav a:hover {
+    text-shadow: 2px 2px 0px red, 3px 3px 0px red;
+}
+
+.left-nav {
+	margin-right: auto;
+}
+
+.right-nav {
+	margin-left: auto;
+}
+
+.logo {
+    width: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 100px;
+    justify-content: center;
+}
+.grid-item {
+    width: 330px;
+    height: 330px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.grid-item img {
+    width: 330px;
+    height: 330px;
+    object-fit: cover;
+}
+
+.grid-item img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  transition: all 0.3s ease;
+}
+.grid-item:hover img {
+  filter: drop-shadow(0 0 5px red);
+}
+
+.name {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: black;
+    transition: color 0.2s ease, filter 0.3s ease;
+}
+
+.date {
+    font-size: 20px;
+    margin-top: 5px;
+    color: black;
+    transition: color 0.2s ease, filter 0.3s ease;
+}
+
+.grid-item:hover .name {
+  filter: drop-shadow(0 0 2px red);
+}
+
+.grid-item:hover .date {
+  filter: drop-shadow(0 0 2px red);
+}
+  
+.container {
+    margin: 50px auto;
+    width: 800px;
+}
+  
+.text-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(5px);
+}
