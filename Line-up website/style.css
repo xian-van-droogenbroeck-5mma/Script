@@ -42,7 +42,7 @@ nav a {
 }
   
 .right-nav a:hover {
-    text-shadow: 2px 2px 0px red, 3px 3px 0px red;
+    text-shadow: 2px 2px 0px #a05ba1, 3px 3px 0px #a05ba1;
 }
 
 .left-nav {
@@ -85,7 +85,7 @@ nav a {
   transition: all 0.3s ease;
 }
 .grid-item:hover img {
-  filter: drop-shadow(0 0 5px red);
+  filter: drop-shadow(0 0 5px #5254a0);
 }
 
 .name {
@@ -104,11 +104,11 @@ nav a {
 }
 
 .grid-item:hover .name {
-  filter: drop-shadow(0 0 2px red);
+  filter: drop-shadow(0 0 2px #5254a0);
 }
 
 .grid-item:hover .date {
-  filter: drop-shadow(0 0 2px red);
+  filter: drop-shadow(0 0 2px #5254a0);
 }
   
 .container {
