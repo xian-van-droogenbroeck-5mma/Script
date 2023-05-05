@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    margin: 0;
+}
+
+header {
+    background-color: #323232;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.moonmusic {
+    width: 100px;
+}
+
+.artiest {
+    font-size: 50px;
+    color: red;
+    flex: 1;
+    margin-left: 25%;
+    text-align: center;
+}
+
+.right-nav {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    margin-left: 100px;
+}
+
+.right-nav li {
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.right-nav a {
+    font-size: 30px;
+}
