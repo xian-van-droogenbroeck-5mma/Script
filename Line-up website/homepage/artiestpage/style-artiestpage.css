@@ -13,37 +13,91 @@ body {
 
 header {
     background-color: #323232;
+    height: 180px;
 }
 
-.header-container {
+.nav-container {
     display: flex;
-    align-items: center;
+    justify-content: space-between;
 }
 
 .moonmusic {
-    width: 100px;
+    margin: 30px;
+    margin-top: 30px;
+}
+
+.moonmusic img {
+    width: 150px;
 }
 
 .artiest {
-    font-size: 50px;
     color: red;
-    flex: 1;
-    margin-left: 25%;
-    text-align: center;
+    font-size: 80px;
+    margin-top: -40px;
 }
 
 .right-nav {
-    display: flex;
-    justify-content: flex-end;
-    flex: 1;
-    margin-left: 100px;
+    margin-top: 55px;
+    margin-right: 30px;
 }
 
 .right-nav li {
-    margin-left: 10px;
+    margin-right: 20px;
     display: inline-block;
 }
 
 .right-nav a {
-    font-size: 30px;
+    font-size: 50px;
+    text-decoration: none;
+    color: white;
+    transition: color 0.2s ease, text-shadow 0.3s ease;
 }
+
+.right-nav a:hover {
+    text-shadow: 2px 2px 0px #a05ba1, 3px 3px 0px #a05ba1;
+}
+
+.artiest-info {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  
+  .artiest-info img {
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    width: 500px;
+    background-color: white;
+    border-radius: 30px;
+    object-fit: cover;
+  }
+  
+  .artiest-info p {
+    margin-top: 30px;
+    font-size: 30px;
+  }
+  
+  .video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    margin-bottom: 20px;
+  }
+  
+  .video-container p {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
