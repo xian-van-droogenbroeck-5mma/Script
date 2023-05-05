@@ -101,3 +101,70 @@ header {
     height: 100%;
   }
   
+  footer {
+    background-color: #323232;
+    padding-bottom: 1px;
+}
+
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+}
+  
+.icon {
+    display: inline-block;
+    padding: 20px;
+    transition: filter 0.3s ease-in-out;
+    color: white;
+    font-size: 30px;
+ }
+  
+.icon:hover {
+    filter: brightness(0.7);
+}
+  
+.footer_actions {
+    padding: 20px;
+}
+  
+.footer_actions_columns {
+    display: flex;
+    justify-content: center;
+}
+  
+.footer_actions ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-right: 20px;
+}
+  
+.footer_actions li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: transparent;
+}
+  
+.footer_actions li:hover {
+    background-color: transparent;
+}
+  
+.footer_actions a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.2s ease, text-shadow 0.3s ease;
+}
+
+.footer_actions a:hover {
+    text-shadow: 2px 2px 0px #a05ba1, 3px 3px 0px #a05ba1;
+}
+
+.copyright {
+    font-size: 20px;
+    margin-left: 10px;
+}
