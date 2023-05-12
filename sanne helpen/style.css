@@ -1,0 +1,18 @@
+.container-fluid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+}
+  
+.flex-item {
+    flex-basis: calc(25% - 2rem);
+}
+
+.flex-item img {
+    width: 100px;
+}
+  
+.flex-item p {
+    color: rgba(164, 158, 141, 1);
+}
