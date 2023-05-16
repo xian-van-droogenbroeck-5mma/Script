@@ -1,58 +1,86 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<title>Mijn Bootstrap-pagina</title>
-
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-
-	<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hugo Boss Info</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Hugo Boss Info</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<a class="navbar-brand" href="#">Mijn Pagina</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarNav">
-			<ul class="navbar-nav">
-				<li class="nav-item active">
-					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Over ons</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Contact</a>
-				</li>
-			</ul>
-		</div>
-	</nav>
+  <!-- Main Content -->
+  <div class="container">
+    <h1>Welcome to the Modern Website!</h1>
 
-
-	<div class="container-fluid">
-		<div class="row">
-
-			<div class="col-md-4">
-				<img src="https://picsum.photos/id/10/200/200" alt="Random foto" class="img-fluid">
-				<img src="https://picsum.photos/id/20/200/200" alt="Random foto" class="img-fluid">
-				<img src="https://picsum.photos/id/30/200/200" alt="Random foto" class="img-fluid">
+    <div class="row mt-4">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="Foto's/Hugo boss vest.jpg" alt="Image 4" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">REGULAR-FIT PAK VAN STRETCHMATERIAAL MET MICRODESSIN</h5>
+            <p class="card-text">Een veelzijdig pak van BOSS Menswear. Dit tweedelige pak is vakkundig vervaardigd in een regular-fit model van een zachte materiaalmix met stretch en scheerwol voor een elegante look en biedt optimale bewegingsvrijheid. Een subtiel dessin geeft het materiaal extra karakter.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="Foto's/Hugo Boss Man - 200ml - Eau de toilette.jpg" alt="Image 5" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Hugo Boss Man - 200ml - Eau de toilette</h5>
+            <p class="card-text">Frisse houtachtige herengeur met onder andere groene appel, lavendel en spar</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="Foto's/Hugo Boss Boss 1513837 Skymaster Horloge.jpg" alt="Image 6" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Hugo Boss Boss 1513837 Skymaster Horloge</h5>
+			<p class="card-text">Dit Hugo Boss horloge heeft een kleurgecoat roestvrijstaal kast met een diameter van 44 mm en is voorzien van een metaal band. In de kast bevindt zich een Seiko Instruments Inc. kwaliteitsuurwerk en is afgewerkt met Mineraalglas. <br><br>
+				Het horloge is 5ATM. Dit betekent dat het horloge geschikt is om mee te douchen. Verder wordt het horloge geleverd met 2 jaar garantie.<br><br>
+				Wij leveren wereldwijd. Kijk voor de leveringsvoorwaarden en verzendkosten op de pagina Verzending en voor de voorwaarden van (gratis) terugsturen op de pagina Terugsturen en ruilen.</p>
+			<a href="#" class="btn btn-primary">Learn More</a>
 			</div>
-
-			<div class="col-md-4">
-				<button type="button" class="btn btn-primary btn-lg btn-block">Knop 1</button>
-				<button type="button" class="btn btn-secondary btn-lg btn-block">Knop 2</button>
 			</div>
-
-			<div class="col-md-4">
-				<h2>Welkom op mijn pagina!</h2>
-				<p>Dit is een voorbeeld van een pagina met Bootstrap.</p>
 			</div>
-		</div>
-	</div>
-
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-</body>
-</html>
+			</div>
+			<div class="row mt-4">
+				<div class="col-md-6">
+				  <button class="btn btn-primary">Button 1</button>
+				</div>
+				<div class="col-md-6">
+				  <button class="btn btn-secondary">Button 2</button>
+				</div>
+			  </div>
+			</div>
+			<!-- Bootstrap JS -->
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+		  </body>
+		  </html>			  
