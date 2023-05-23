@@ -90,9 +90,9 @@ header {
   
   .video-container p {
     position: absolute;
-    top: 2rem;
+    top: 3rem;
     left: 19.375rem;
-    color: white;
+    color: black;
     font-size: 2rem;
     font-weight: bold;
   }
