@@ -12,6 +12,18 @@
 
 <body>
   <header>
+    <div class="hamburger" onclick="toggleMenu()">
+      <div class="hamburger-icon"></div>
+      <div class="hamburger-icon"></div>
+      <div class="hamburger-icon"></div>
+    </div>
+    <ul class="menu">
+      <li><a href="#line-up">Line-up</a></li>
+      <li><a href="#">Info</a></li>
+      <li><a href="#">Nieuws</a></li>
+    </ul>
+
+    
     <nav>
       <ul class="left-nav">
         <li><a href="#">Koop Tickets</a></li>
@@ -107,6 +119,7 @@
       <a href="#" class="icon"><i class="fab fa-linkedin"></i></a>
       <a href="#" class="icon"><i class="fab fa-youtube"></i></a>
     </div>
+    <section> <div id="footer-pc">
     <div class="footer_actions">
       <div class="footer_actions_columns">
         <ul>
@@ -123,10 +136,19 @@
         </ul>
       </div>
     </div>
+  </div>
+  </section>
     <div class="copyright">
       <p>© Moon Music 2023</p>
     </div>
   </footer>
+
+  <script>
+    function toggleMenu() {
+      var menu = document.querySelector('.menu');
+      menu.classList.toggle('open');
+    }
+  </script>
 </body>
 
 </html>

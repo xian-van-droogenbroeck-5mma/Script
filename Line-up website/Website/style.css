@@ -208,7 +208,7 @@ footer {
   margin-left: 10px;
 }
 
-
+ /*artiesten page*/
 #header-artiestenpage {
   background-color: #323232;
   height: 180px;
@@ -300,3 +300,95 @@ footer {
   max-width: 100%;
   max-height: calc(100% - 40px);
 }
+
+.hamburger .menu .hamburger-icon .menu.open {
+  display: none;
+}
+
+
+
+
+
+@media (width <=750px) {
+  .hamburger {
+    display: none;
+    cursor: pointer;
+    margin-top: 2%;
+    margin-left: 95%;
+  }
+
+  .hamburger-icon {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin-bottom: 5px;
+  }
+    .hamburger {
+      display: block;
+    }
+
+    .hamburger-icon {
+      width: 30px;
+      height: 3px;
+      background-color: white;
+      margin-bottom: 5px;
+    }
+
+    .menu {
+      display: none;
+      margin-left: 80%;
+      margin-top: -3%;
+    }
+
+    .menu li {
+      list-style: none;
+    }
+
+    .menu a{
+      color: white;
+      text-decoration: none;
+      font-size: 1.5rem;
+    }
+
+    .menu.open {
+      display: block;
+    }
+
+    nav{
+      display: none;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 100px;
+      justify-content: center;
+    }
+
+    .footer_actions_columns {
+      display: block;
+      justify-content: center;
+    }
+    
+    .grid-item {
+      margin-left: 27%;
+      width: 20rem;
+      height: 20rem;
+    }
+    
+    .grid-item img {
+      width: 20rem;
+      height: 20rem;
+    }
+
+    .line-up {
+      text-align: center;
+      font-size: 70px;
+      margin-left: 4%;
+      margin-bottom: 1%;
+    }
+
+    .logo {
+      margin-bottom: 2%;
+    }
+  }
