@@ -301,62 +301,57 @@ footer {
   max-height: calc(100% - 40px);
 }
 
-.hamburger .menu .hamburger-icon .menu.open {
+header input#burger {
   display: none;
 }
 
+header label[for="burger"] {
+  display: none;
+}
 
-
-
+header label[for="burger"] i {
+  font-size: 2rem;
+}
 
 @media (width <=750px) {
-  .hamburger {
-    display: none;
+
+  .left-nav {
+    display: flex;
+    position: absolute;
+    margin-top: -6%;
+  }
+
+  header label[for="burger"] {
+    display: block;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    right: 0;
+    width: 100%;
+    padding: 1rem 1ch;
+    background-color: var(--bgc-02);
+    text-align: right;
     cursor: pointer;
-    margin-top: 2%;
-    margin-left: 95%;
   }
 
-  .hamburger-icon {
-    width: 30px;
-    height: 3px;
-    background-color: #333;
-    margin-bottom: 5px;
+  header nav ul {
+    position: fixed;
+    z-index: 3;
+    top: 3rem;
+    right: 0;
+    display: none;
+    padding-right: 1ch;
+    width: 100%;
+    background-color: var(--bgc-02);
+    text-align: right;
+    user-select: none;
   }
-    .hamburger {
-      display: block;
-    }
 
-    .hamburger-icon {
-      width: 30px;
-      height: 3px;
-      background-color: white;
-      margin-bottom: 5px;
-    }
-
-    .menu {
-      display: none;
-      margin-left: 80%;
-      margin-top: -3%;
-    }
-
-    .menu li {
-      list-style: none;
-    }
-
-    .menu a{
-      color: white;
-      text-decoration: none;
-      font-size: 1.5rem;
-    }
-
-    .menu.open {
-      display: block;
-    }
-
-    nav{
-      display: none;
-    }
+  header input#burger:checked + label[for="burger"] + nav .right-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
 
     .grid {
       display: grid;
@@ -390,5 +385,79 @@ footer {
 
     .logo {
       margin-bottom: 2%;
+    }
+
+    /*Artiesten page*/
+    .moonmusic {
+      margin: 3%;
+    }
+
+    .moonmusic img {
+      width: 60%;
+    }
+
+    .artiest {
+      color: red;
+      font-size: 3rem;
+      margin-left: 1%;
+    }
+
+    .left-nav {
+      display: flex;
+      position: absolute;
+      margin-top: -6%;
+    }
+
+    /*hamburger*/
+    header label[for="burger"] {
+      display: block;
+      position: fixed;
+      z-index: 3;
+      top: 0;
+      right: 0;
+      width: 100%;
+      padding: 1rem 1ch;
+      background-color: var(--bgc-02);
+      text-align: right;
+      cursor: pointer;
+    }
+  
+    header nav ul {
+      position: fixed;
+      z-index: 3;
+      top: 3rem;
+      right: 0;
+      display: none;
+      padding-right: 1ch;
+      width: 100%;
+      background-color: var(--bgc-02);
+      text-align: right;
+      user-select: none;
+    }
+  
+    header input#burger:checked + label[for="burger"] + nav .right-nav-artiestenpage {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+
+    /*artiesten info*/
+    .artiest-info {
+      display: block;
+    }
+    
+    .artiest-info img {
+      margin-top: 3%;
+      margin-right: none;
+      margin-left: 15%;
+      width: 500px;
+      background-color: white;
+      border-radius: 30px;
+      object-fit: cover;
+    }
+    
+    .artiest-info p {
+      margin-top: 30px;
+      font-size: 1.875rem;
     }
   }
