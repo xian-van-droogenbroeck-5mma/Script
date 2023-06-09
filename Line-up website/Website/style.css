@@ -9,6 +9,7 @@ body {
   font-family: 'Bebas Neue', cursive;
   color: white;
   margin: 0;
+  overflow-x: hidden;
 }
 
 .logo img {
@@ -315,6 +316,10 @@ header label[for="burger"] i {
 }
 
 @media (width <=750px) {
+
+  html, body {
+    overflow-x: hidden;
+  }
 
   .left-nav {
     display: flex;
