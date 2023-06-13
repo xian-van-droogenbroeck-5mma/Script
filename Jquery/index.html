@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jquery testing</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-xZ7jCKidkC9u/2+qbuKjPLnxj8AjsUWpC/8dfRWGdEyPt9DbLNCutkYTh5tBsHTX1XrtR0fECOXgqd/nDeJthw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.css" integrity="sha512-Woz+DqWYJ51bpVk5Fv0yES/edIMXjj3Ynda+KWTIkGoynAMHrqTcDUQltbipuiaD5ymEo9520lyoVOo9jCQOCA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <div class="container">
+    <img src="Footage/Hugo Boss logo.png" alt="Hugo Boss Logo" class="logo">
+  </div>
+
+  <div class="gallery">
+    <div class="product">
+      <img src="Footage/GERUIT SLIM-FIT PAK VAN SCHEERWOL MET STRETCH.jpg" alt="Image 1">
+      <h3>GERUIT SLIM-FIT PAK...</h3>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="Footage/hbeu50497193_404_300.jpg" alt="Image 2">
+      <h3>GERUIT SLIM-FIT PAK...</h3>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="Footage/ZWARTGECOAT HORLOGE MET GESCHAKELDE POLSBAND.jpg" alt="Image 3">
+      <h3>ZWARTGECOAT HORLOGE MET...</h3>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="Footage/ZWARTGECOATE CHRONOGRAAF MET GESCHAKELDE POLSBAND.jpg" alt="Image 4">
+      <h3>ZWARTGECOATE CHRONOGRAAF...</h3>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" src="">
+  </div>
+
+  <div class="cart-icon">
+    <i class="fas fa-shopping-cart"></i>
+    <span class="cart-count">0</span>
+  </div>
+
+  <footer>
+    <p>Ik vind het leuk dat als je op "add cart" drukt, je een groene bol krijgt. Ik ben de uitdaging tegen gekomen om een plugin te vinden. Ik zou deze plugin niet meer gebruiken.</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js" integrity="sha512-Ixzuzfxv1EqafeQlTCufWfaC6ful6WFqIz4G+dWvK0beHw0NVJwvCKSgafpy5gwNqKmgUfIBraVwkKI+Cz0SEQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    $(document).ready(function() {
+      $('.add-to-cart').click(function() {
+        var cartCount = parseInt($('.cart-count').text());
+        cartCount++;
+        $('.cart-count').text(cartCount);
+        $('.cart-count').addClass('cart-count-active');
+      });
+    });
+  </script>
+</body>
+
+</html>
